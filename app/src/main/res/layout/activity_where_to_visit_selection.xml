@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/green_bg"
+	android:orientation="horizontal"
+	tools:context=".WhereToVisitSelectionActivity"
+	android:baselineAligned="false">
+
+	<androidx.gridlayout.widget.GridLayout
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:padding="10dp"
+		android:layout_weight="13"
+		app:columnCount="3"
+		app:rowCount="7">
+
+		<ImageView
+			android:id="@+id/iv00"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/restaurant"
+			tools:ignore="DuplicateSpeakableTextCheck" />
+
+		<ImageView
+			android:id="@+id/iv01"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/bakery" />
+
+		<ImageView
+			android:id="@+id/iv02"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/coffee" />
+
+		<ImageView
+			android:id="@+id/iv10"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/taj_mahal" />
+
+		<ImageView
+			android:id="@+id/iv11"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/snacks" />
+
+		<ImageView
+			android:id="@+id/iv12"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/shopping" />
+
+		<ImageView
+			android:id="@+id/iv20"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/temple" />
+
+		<ImageView
+			android:id="@+id/iv21"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/museum" />
+
+		<ImageView
+			android:id="@+id/iv22"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/view" />
+
+		<ImageView
+			android:id="@+id/iv30"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/river" />
+
+		<ImageView
+			android:id="@+id/iv31"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/zoo" />
+
+		<ImageView
+			android:id="@+id/iv32"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/park" />
+
+		<ImageView
+			android:id="@+id/iv40"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/movie" />
+
+		<ImageView
+			android:id="@+id/iv41"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/hotel" />
+
+		<ImageView
+			android:id="@+id/iv42"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/bar" />
+
+		<ImageView
+			android:id="@+id/iv50"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/airport" />
+
+		<ImageView
+			android:id="@+id/iv51"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/railway" />
+
+		<ImageView
+			android:id="@+id/iv52"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/bus" />
+
+		<ImageView
+			android:id="@+id/iv60"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/tour" />
+
+		<ImageView
+			android:id="@+id/iv61"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/hospital" />
+
+		<ImageView
+			android:id="@+id/ivSubmit"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_margin="5dp"
+			android:clickable="true"
+			android:contentDescription="@string/clickable_image"
+			android:focusable="true"
+			app:layout_columnWeight="1"
+			app:layout_gravity="fill"
+			app:layout_rowWeight="1"
+			app:srcCompat="@drawable/submit"
+			tools:ignore="ImageContrastCheck" />
+
+	</androidx.gridlayout.widget.GridLayout>
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="1">
+
+		<SeekBar
+			android:id="@+id/radiusBar"
+			android:layout_width="400dp"
+			android:layout_height="match_parent"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp"
+			android:max="50"
+			android:progress="15"
+			android:rotation="270"
+			android:thumbTint="@color/green8"
+			android:progressTint="@color/green9"
+			android:layout_marginEnd="10dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

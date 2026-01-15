@@ -1,0 +1,18 @@
+<resources>
+	<string name="app_name">Smart City Traveller</string>
+	<string name="find">find</string>
+	<string name="loc">loc</string>
+	<string name="enter_location_manually">Enter Location Manually</string>
+	<string name="detect_my_location">Detect My Location</string>
+	<string name="hello_blank_fragment">Hello blank fragment</string>
+	<string name="enter_location">Enter Location: city, country</string>
+	<string name="click_again">Click again after entering a Location!</string>
+	<string name="recommended">(Recommended)</string>
+	<string name="clickable_image">Clickable Image</string>
+	<string name="select_where">Select Interests (15km)</string>
+	<string name="punjab_restaurant">Punjab Restaurant</string>
+	<string name="indian_restaurant">Indian Restaurant</string>
+	<string name="_3_415km">03.415km</string>
+	<string name="please_wait">Please Wait…</string>
+	<string name="title_activity_destination_maps">DestinationMapsActivity</string>
+</resources>
